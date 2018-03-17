@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: StockTicker - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/StockTicker.res" /d "NDEBUG" "D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\StockTicker.rc"" 
+Creating temporary file "D:\DOCUME~1\KELVIN~1\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\Dialog.cpp"
+"D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\List.cpp"
+"D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\Nasdaq.cpp"
+"D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\regmatch.cpp"
+"D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\StockTicker.cpp"
+"D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\xml.cpp"
+"D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\Yahoo.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\KELVIN~1\LOCALS~1\Temp\RSP1A.tmp" 
+Creating temporary file "D:\DOCUME~1\KELVIN~1\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib msimg32.lib ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/StockTicker.pdb" /machine:I386 /out:"Release/StockTicker.exe" 
+".\Release\Benaphore.obj"
+".\Release\ColorButton.obj"
+".\Release\DataIO.obj"
+".\Release\Dialog.obj"
+".\Release\List.obj"
+".\Release\Nasdaq.obj"
+".\Release\regmatch.obj"
+".\Release\SocketIO.obj"
+".\Release\StockTicker.obj"
+".\Release\String.obj"
+".\Release\xml.obj"
+".\Release\XmlParser.obj"
+".\Release\Yahoo.obj"
+".\Release\StockTicker.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\KELVIN~1\LOCALS~1\Temp\RSP1B.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+Dialog.cpp
+List.cpp
+Nasdaq.cpp
+D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\Nasdaq.cpp(68) : warning C4018: '<' : signed/unsigned mismatch
+regmatch.cpp
+StockTicker.cpp
+xml.cpp
+D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\xml.cpp(121) : warning C4018: '!=' : signed/unsigned mismatch
+Yahoo.cpp
+Generating Code...
+D:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\MYPROJECTS\StockTicker\Yahoo.cpp(137) : warning C4715: 'query_yahoo' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+StockTicker.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
